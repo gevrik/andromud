@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<TextView android:text="FG:" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/fg_label"
+		android:paddingTop="12dp" />
+
+	<Spinner android:id="@+id/fg" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toRightOf="@+id/fg_label" />
+
+	<Spinner android:id="@+id/bg" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignTop="@+id/fg"
+		android:layout_alignParentRight="true" />
+
+	<TextView android:text="BG:" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_toLeftOf="@+id/bg"
+		android:paddingTop="12dp" />
+
+	<GridView android:id="@+id/color_grid" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:padding="10dp"
+		android:verticalSpacing="10dp" android:horizontalSpacing="10dp"
+		android:numColumns="auto_fit" android:columnWidth="50dp"
+		android:stretchMode="columnWidth" android:gravity="center"
+		android:layout_below="@+id/fg" android:stackFromBottom="true"
+		android:minHeight="50dp" />
+</RelativeLayout>

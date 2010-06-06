@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_general_title">
+		<CheckBoxPreference android:key="fullscreen"
+			android:title="@string/pref_fullscreen_title" android:summary="@string/pref_fullscreen_summary"
+			android:defaultValue="false"></CheckBoxPreference>
+		<CheckBoxPreference android:key="wake"
+			android:title="@string/pref_term_wake_title" android:summary="@string/pref_term_wake_summary"
+			android:defaultValue="true"></CheckBoxPreference>
+		<CheckBoxPreference android:key="wifi"
+			android:title="@string/pref_term_wifi_title" android:summary="@string/pref_term_wifi_summary"
+			android:defaultValue="true"></CheckBoxPreference>
+		<EditTextPreference android:key="screenBuffer"
+			android:title="@string/pref_screenbuffer_title" android:inputType="number"
+			android:singleLine="true" android:defaultValue="300"
+			android:summary="@string/pref_screenbuffer_summary" />
+		<EditTextPreference android:key="commandhistory"
+			android:title="@string/pref_cmdhistory_title" android:inputType="number"
+			android:singleLine="true" android:defaultValue="20"
+			android:summary="@string/pref_cmdhistory_summary" />
+		<EditTextPreference android:key="logPath"
+			android:title="@string/pref_log_title" android:singleLine="true"
+			android:defaultValue="/sdcard/AndroMudLog.txt" android:summary="@string/pref_log_summary" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/postLogin">
+		<CheckBoxPreference android:key="usePostLogin"
+			android:title="@string/pref_use_postLogin_title" android:summary="@string/pref_use_postLogin_summary"
+			android:defaultValue="false"></CheckBoxPreference>
+		<CheckBoxPreference android:key="postLoginAsPassword"
+			android:title="@string/pref_postlogin_as_password_title"
+			android:summary="@string/pref_postlogin_as_password_summary"
+			android:defaultValue="true"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_session">
+		<CheckBoxPreference android:defaultValue="true"
+			android:summary="@string/pref_bellVibrate_summary" android:title="@string/pref_bellVibrate_title"
+			android:key="bellVibrate"></CheckBoxPreference>
+		<CheckBoxPreference android:defaultValue="true"
+			android:summary="@string/pref_notification_summary" android:title="@string/pref_notification_title"
+			android:key="notification"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_character_title">
+		<EditTextPreference android:key="fontsize"
+			android:title="@string/pref_fontsize_title" android:inputType="number"
+			android:singleLine="true" android:defaultValue="11"
+			android:summary="@string/pref_fontsize_summary" />
+		<ListPreference android:key="encoding"
+			android:defaultValue="UTF-8" android:title="@string/pref_encoding_title"
+			android:summary="@string/pref_encoding_summary" />
+		<CheckBoxPreference android:defaultValue="false"
+			android:summary="@string/pref_force_bold_summary" android:title="@string/pref_force_bold_title"
+			android:key="forceBold"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_button_shortcut_title">
+		<CheckBoxPreference android:defaultValue="true"
+			android:summary="@string/pref_shakeforurl_summary" android:title="@string/pref_shakeforurl_title"
+			android:key="shakeforurl"></CheckBoxPreference>
+		<CheckBoxPreference android:defaultValue="true"
+			android:summary="@string/pref_useshortcut_summary" android:title="@string/pref_useshortcut_title"
+			android:key="useShortcut"></CheckBoxPreference>
+		<EditTextPreference android:key="shortcutkey1"
+			android:title="@string/pref_button_shortcut1"></EditTextPreference>
+		<EditTextPreference android:key="shortcutkey2"
+			android:title="@string/pref_button_shortcut2"></EditTextPreference>
+		<EditTextPreference android:key="shortcutkey3"
+			android:title="@string/pref_button_shortcut3"></EditTextPreference>
+		<EditTextPreference android:key="shortcutkey4"
+			android:title="@string/pref_button_shortcut4"></EditTextPreference>
+		<EditTextPreference android:key="shortcutkey5"
+			android:title="@string/pref_button_shortcut5"></EditTextPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

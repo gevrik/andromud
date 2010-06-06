@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:id="@+id/ScrollView01"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/NameText"
+			android:text="@string/nickname"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/NameValue"
+			android:layout_width="fill_parent" android:layout_toRightOf="@+id/NameText"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/HostText"
+			android:text="@string/host" android:layout_below="@+id/NameValue"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/HostValue"
+			android:layout_toRightOf="@+id/HostText" android:layout_width="fill_parent"
+			android:singleLine="true" android:layout_below="@+id/NameValue"
+			android:layout_alignLeft="@+id/NameValue"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/PortText"
+			android:text="@string/port" android:layout_below="@+id/HostValue"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:inputType="number" android:id="@+id/PortValue"
+			android:layout_toRightOf="@+id/PortText" android:layout_below="@+id/HostValue"
+			android:layout_width="fill_parent" android:layout_alignLeft="@+id/HostValue"
+			android:singleLine="true"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/MudfileText"
+			android:text="@string/mudfile" android:layout_below="@+id/PortValue"></TextView>
+		<LinearLayout android:layout_alignLeft="@+id/HostValue"
+			android:layout_width="fill_parent" android:layout_below="@+id/PortValue"
+			android:layout_toRightOf="@+id/MudfileText" android:id="@+id/LinearLayout01"
+			android:layout_height="wrap_content">
+			<EditText android:layout_below="@+id/PortValue" android:id="@+id/filepath"
+				android:layout_width="fill_parent" android:layout_toRightOf="@+id/MudfileText"
+				android:layout_height="wrap_content" android:layout_weight="1"></EditText>
+			<Button android:text="@string/browse" android:id="@+id/browse"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+		<TextView android:layout_below="@+id/LinearLayout01"
+			android:id="@+id/postLoginText" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/postLogin"
+			android:layout_toRightOf="@+id/more"></TextView>
+		<EditText android:layout_toRightOf="@+id/postLoginText"
+			android:id="@+id/postLoginValue" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout01"></EditText>
+		<Button android:layout_height="wrap_content"
+			android:layout_below="@+id/postLoginValue" android:layout_toRightOf="@+id/more"
+			android:text="@string/save" android:id="@+id/SaveButton"
+			android:layout_width="fill_parent"></Button>
+	</RelativeLayout>
+</ScrollView>

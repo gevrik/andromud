@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="basement.lab.mudclient" android:versionCode="24"
+	android:versionName="1.2.2">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Splash" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".MenuActivity" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black">
+		</activity>
+		<activity android:screenOrientation="landscape" android:name=".MudTerminalActivity" />
+		<activity android:screenOrientation="landscape"
+			android:theme="@android:style/Theme.Dialog" android:name=".AliasListActivity" />
+		<activity android:screenOrientation="landscape"
+			android:theme="@android:style/Theme.Dialog" android:name=".AliasEditorActivity" />
+		<activity android:name=".ServerListActivity" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name=".ColorsActivity" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name=".HelpActivity"></activity>
+		<activity android:theme="@android:style/Theme.Dialog"
+			android:name="SettingsManager"></activity>
+		<activity android:theme="@android:style/Theme.Dialog"
+			android:name="ConnectionEditor"></activity>
+		<activity android:name="TriggerEditorActivity" android:theme="@android:style/Theme.Dialog"></activity>
+		<activity android:name="TriggerListActivity" android:theme="@android:style/Theme.Dialog"></activity>
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest> 

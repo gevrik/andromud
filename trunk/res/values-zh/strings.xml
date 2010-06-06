@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="versionName">版本号:1.2.2</string>
+	<string name="app_name">AndroMud</string>
+	<string name="splashstr1">AndroMud</string>
+	<string name="splashstr2">Basement Lab出品</string>
+	<string name="splashstr3">\@ 2010</string>
+	<string name="new_server">新服务器</string>
+	<string name="cancel">取消</string>
+	<string name="start">开始</string>
+	<string name="setting">使用设置</string>
+	<string name="help">帮助</string>
+	<string name="about">关于</string>
+	<string name="exit">退出</string>
+	<string name="save">保存</string>
+	<string name="add">添加</string>
+	<string name="enterserverinfo">输入服务器信息</string>
+
+	<string name="nickname">服务器描述:</string>
+	<string name="host">服务器地址:</string>
+	<string name="port">端口:</string>
+	<string name="mudfile">MUD文件:</string>
+
+	<string name="editserver">编辑服务器信息</string>
+	<string name="modify">修改</string>
+	<string name="delete">删除</string>
+	<string name="serverlist">服务器列表</string>
+	<string name="portmustbenumber">端口必须是数字</string>
+	<string name="reconnect">重连</string>
+	<string name="disconnect">断线</string>
+	<string name="pref_cmdhistory_title">指令历史缓冲数</string>
+	<string name="pref_cmdhistory_summary">记录可以回溯的指令个数。</string>
+	<string name="pref_screenbuffer_title">屏幕缓冲行数</string>
+	<string name="pref_screenbuffer_summary">屏幕最多存储文字行数。</string>
+	<string name="pref_fontsize_title">字体大小</string>
+	<string name="pref_fontsize_summary">连线的显示文字大小</string>
+	<string name="pref_fullscreen_title">全屏</string>
+	<string name="pref_fullscreen_summary">全屏显示，更加有效利用屏幕面积。</string>
+	<string name="pref_encoding_title">编码模式</string>
+	<string name="pref_encoding_summary">文字编码模式，防止显示乱码。</string>
+	<string name="pref_button_shortcut_title">快捷键选项</string>
+	<string name="pref_button_shortcut1">快捷键1</string>
+	<string name="pref_button_shortcut2">快捷键2</string>
+	<string name="pref_button_shortcut3">快捷键3</string>
+	<string name="pref_button_shortcut4">快捷键4</string>
+	<string name="pref_button_shortcut5">快捷键5</string>
+	<string name="pref_general_title">常用设置</string>
+	<string name="pref_character_title">显示设置</string>
+	<string name="pref_term_wake_title">保持屏幕常亮</string>
+	<string name="pref_term_wake_summary">在连线过程中保持屏幕不熄灭。</string>
+	<string name="pref_term_wifi_title">保持WIFI联通</string>
+	<string name="pref_term_wifi_summary">连线过程中保持WIFI不断开。</string>
+	<string name="pref_force_bold_title">强制粗体显示</string>
+	<string name="pref_force_bold_summary">强制粗体显示，看起来文字更清楚。</string>
+
+	<string name="pref_use_postLogin_title">使用登录后自动指令</string>
+	<string name="pref_use_postLogin_summary">登录后自动发出用户指定指令。</string>
+	<string name="pref_bellVibrate_title">响铃时震动</string>
+	<string name="pref_bellVibrate_summary">连线应该响铃时手机震动。</string>
+
+	<string name="pref_postlogin_as_password_title">隐藏登录自动指令</string>
+	<string name="pref_postlogin_as_password_summary">在设置窗口隐藏登录自动指令，增加密码保密性。</string>
+
+
+	<string name="menu_colors_reset">重置</string>
+	<string name="color_setting">颜色设置</string>
+	<string name="browse">浏览</string>
+
+	<string name="about_title">关于AndroMud</string>
+	<string name="about_body">AndroMud是专为MUD设计的telnet客户端，也可以作为普通telnet客户端使用。\n\nAndroMud使用过程会产生网络流量。\n\n本软件作者对流量产生的电信费用不负责任。\n\nBasement
+		Lab出品。\n2010</string>
+	<string name="yes">是的</string>
+	<string name="really_quit">强制退出会中断一切连线，你确定吗？</string>
+
+	<string name="alert_sdcard_absent">SD卡读写失败。</string>
+	<string name="pref_useshortcut_title">使用快捷键</string>
+	<string name="pref_useshortcut_summary">在连线中激活快捷键的使用。</string>
+
+	<string name="pref_notification_title">背景提示</string>
+	<string name="pref_notification_summary">AndroMud在后台运行时显示提醒。</string>
+
+	<string name="alias">别名</string>
+
+	<string name="alias_title">别名名字</string>
+	<string name="alias_body">别名主体</string>
+	<string name="aliaseditor">别名编辑器</string>
+	<string name="addnew">添加新的</string>
+	<string name="finish">结束</string>
+	<string name="editorerr">必须填写全部信息。</string>
+	<string name="commitfileerror">储存MUD文件失败，请检查SD卡。</string>
+	<string name="back">后退</string>
+	<string name="next">前进</string>
+
+	<string name="pref_log_title">记录文件路径</string>
+	<string name="pref_log_summary">记录全部屏幕信息的文件路径。</string>
+
+	<string name="startLog">开始记录</string>
+	<string name="stopLog">停止记录</string>
+	<string name="clearLog">清空记录</string>
+
+	<string name="postLogin">登录后自动指令</string>
+
+	<string name="noserverfound">未发现服务器，使用默认服务器吗？</string>
+	<string name="ok">是</string>
+	<string name="no">否</string>
+
+	<string name="pref_session">连线设置</string>
+	<string name="error_unableFindServer">无法找到有效服务器</string>
+	<string name="mud_still_running">连线 %s 在后台运行。</string>
+	<string name="mud_still_running_desc">长按HOME键返回。</string>
+
+	<string name="trigereditor">触发编辑器</string>
+	<string name="trigger_setup">触发</string>
+	<string name="trigger_pattern">匹配字符</string>
+	<string name="trigger_choose_from_screen">选择</string>
+	<string name="trigger_body">触发命令</string>
+
+	<string name="trigger_enable">开始触发</string>
+	<string name="trigger_disable">停止触发</string>
+	<string name="urlscan">URL扫描</string>
+	<string name="urlscanerr">找不到URL</string>
+
+	<string name="pref_shakeforurl_title">摇动扫描URL</string>
+	<string name="pref_shakeforurl_summary">摇动手机自动扫描URL。</string>
+</resources>
