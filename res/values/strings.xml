@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="versionName">Version Number:1.2.2</string>
+	<string name="app_name">AndroMud</string>
+	<string name="splashstr1">AndroMud</string>
+	<string name="splashstr2">Basement Lab Production</string>
+	<string name="splashstr3">\@ 2010</string>
+	<string name="new_server">New Server</string>
+	<string name="cancel">Cancel</string>
+	<string name="start">Start</string>
+	<string name="setting">Setting</string>
+	<string name="help">Help</string>
+	<string name="about">About</string>
+	<string name="exit">Exit</string>
+	<string name="save">Save</string>
+	<string name="add">Add</string>
+	<string name="enterserverinfo">Enter Server Information</string>
+
+	<string name="nickname">Server Desc:</string>
+	<string name="host">Host Name:</string>
+	<string name="port">Port:</string>
+	<string name="mudfile">Mud File:</string>
+
+	<string name="editserver">Edit Server Information</string>
+	<string name="modify">Modify</string>
+	<string name="delete">Delete</string>
+	<string name="serverlist">Server List</string>
+	<string name="portmustbenumber">Port value must be a number.</string>
+	<string name="reconnect">Reconnect</string>
+	<string name="disconnect">Disconnect</string>
+	<string name="pref_cmdhistory_title">Command Buffer</string>
+	<string name="pref_cmdhistory_summary">Number of commands you can back track.</string>
+	<string name="pref_screenbuffer_title">Screen Buffer</string>
+	<string name="pref_screenbuffer_summary">Screen Text Buffer. Bigger buffer can hold more
+		text but slower.</string>
+	<string name="pref_fontsize_title">Font Size</string>
+	<string name="pref_fontsize_summary">Character Size for connections.</string>
+	<string name="pref_fullscreen_title">Full Screen</string>
+	<string name="pref_fullscreen_summary">Full Screen Display</string>
+	<string name="pref_encoding_title">Encoding</string>
+	<string name="pref_encoding_summary">Character encoding for connections.</string>
+	<string name="pref_button_shortcut_title">Shortcut Features</string>
+	<string name="pref_button_shortcut1">Shortcut Button 1</string>
+	<string name="pref_button_shortcut2">Shortcut Button 2</string>
+	<string name="pref_button_shortcut3">Shortcut Button 3</string>
+	<string name="pref_button_shortcut4">Shortcut Button 4</string>
+	<string name="pref_button_shortcut5">Shortcut Button 5</string>
+	<string name="pref_general_title">General Settings</string>
+	<string name="pref_character_title">Display Settings</string>
+	<string name="pref_term_wake_title">Keep Screen Awake</string>
+	<string name="pref_term_wake_summary">Keep screen awake in terminal</string>
+	<string name="pref_term_wifi_title">Keep Wifi Awake</string>
+	<string name="pref_term_wifi_summary">Keep Wifi awake when connected to game.</string>
+	<string name="pref_force_bold_title">Display Bold Character</string>
+	<string name="pref_force_bold_summary">Force to display characters in bold. Easier to\
+		read but slower.</string>
+
+	<string name="pref_use_postLogin_title">Use Post Login Cmds</string>
+	<string name="pref_use_postLogin_summary">Automatically send user specified commands once
+		logged in.</string>
+	<string name="pref_bellVibrate_title">Vibrate on Bell</string>
+	<string name="pref_bellVibrate_summary">Vibrate your phone when there is a beep sound from
+		Mud.</string>
+
+	<string name="pref_postlogin_as_password_title">Hide Post Login Text</string>
+	<string name="pref_postlogin_as_password_summary">Hide text in post login setup box. This helps
+		protect your password.</string>
+
+
+	<string name="menu_colors_reset">Reset</string>
+	<string name="color_setting">Colors</string>
+	<string name="browse">Browse</string>
+
+	<string name="about_title">About AndroMud</string>
+	<string name="about_body">AndroMud is a telnet client specially designed for\
+		text based mud games.\n\nThis tool accesses internet and creates data\
+		flow. AndroMud author is not responsible for overwhelming data flow\
+		and/or battery drain.\n\nBasement Lab Production.\n2010</string>
+	<string name="yes">Yes</string>
+	<string name="really_quit">Exiting will forcibly close your current
+		connection. Are you sure to exit?</string>
+
+	<string name="alert_sdcard_absent">SD card is not inserted!</string>
+	<string name="pref_useshortcut_title">Use Shortcut Keys</string>
+	<string name="pref_useshortcut_summary">Enable shortcut keys in games.</string>
+
+	<string name="pref_notification_title">Background Notification</string>
+	<string name="pref_notification_summary">Show notification when mud is running on
+		background.</string>
+
+	<string name="alias">Alias</string>
+
+	<string name="alias_title">Alias Title</string>
+	<string name="alias_body">Alias Body</string>
+	<string name="aliaseditor">Alias Editor</string>
+	<string name="addnew">Add New</string>
+	<string name="finish">Finish</string>
+	<string name="editorerr">All fields must be filled in this editor.</string>
+	<string name="commitfileerror">Save mud file failed. Please check your SD card.
+	</string>
+	<string name="back">Back</string>
+	<string name="next">Next</string>
+
+	<string name="pref_log_title">Log Path</string>
+	<string name="pref_log_summary">The filepath for log file.</string>
+
+	<string name="startLog">Start Log</string>
+	<string name="stopLog">Stop Log</string>
+	<string name="clearLog">Clear Log</string>
+
+	<string name="postLogin">Post Login Cmds</string>
+
+	<string name="noserverfound">No Server Found. Load Default Servers?</string>
+	<string name="ok">OK</string>
+	<string name="no">No</string>
+
+	<string name="pref_session">Session Settings</string>
+	<string name="error_unableFindServer">Unable to find a valid server.</string>
+	<string name="mud_still_running">Mud session %s is still running.</string>
+	<string name="mud_still_running_desc">Long hold HOME button to go back.</string>
+
+	<string name="trigereditor">Trigger Editor</string>
+	<string name="trigger_setup">Triggers</string>
+	<string name="trigger_pattern">Pattern</string>
+	<string name="trigger_choose_from_screen">Choose</string>
+	<string name="trigger_body">Body</string>
+
+	<string name="trigger_enable">Start Trigger</string>
+	<string name="trigger_disable">Stop Trigger</string>
+	<string name="urlscan">URL Scan</string>
+	<string name="urlscanerr">No URL Found.</string>
+
+	<string name="pref_shakeforurl_title">Shake To Scan URL</string>
+	<string name="pref_shakeforurl_summary">Shake your phone to detect URL in text.</string>
+</resources>

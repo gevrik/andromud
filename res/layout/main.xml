@@ -1,0 +1,31 @@
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_weight="1" android:layout_height="wrap_content">
+		<FrameLayout android:id="@+id/terminalContainer"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1">
+		</FrameLayout>
+		<TableLayout android:id="@+id/buttonList"
+			android:layout_width="fill_parent" android:layout_weight="12"
+			android:layout_height="wrap_content" android:stretchColumns="*">
+			<Button android:text="1" android:id="@+id/shortcut1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="2" android:id="@+id/shortcut2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="3" android:id="@+id/shortcut3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="4" android:id="@+id/shortcut4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="5" android:id="@+id/shortcut5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</TableLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<EditText android:layout_height="wrap_content"
+			android:layout_below="@+id/commandView" android:layout_width="fill_parent"
+			android:id="@+id/cmdText" android:singleLine="true" android:textSize="10pt"></EditText>
+	</LinearLayout>
+</LinearLayout>

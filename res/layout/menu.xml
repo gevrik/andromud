@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:src="@drawable/banner"
+		android:layout_width="fill_parent" android:scaleType="fitXY"
+		android:fadingEdge="vertical" android:layout_height="wrap_content"></ImageView>
+	<TableLayout android:stretchColumns="*"
+		android:paddingLeft="30dp" android:paddingRight="30dp"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="bottom">
+		<Button android:text="@string/start" android:id="@+id/start"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/color_setting" android:id="@+id/color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/setting" android:id="@+id/setting"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/help" android:id="@+id/help"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/about" android:id="@+id/about"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/exit" android:id="@+id/exit"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<TextView android:text="@string/versionName" android:gravity="right"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</TableLayout>
+</LinearLayout>

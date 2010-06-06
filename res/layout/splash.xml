@@ -1,0 +1,16 @@
+<LinearLayout android:id="@+id/layout" android:background="@drawable/greengradient"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center" android:orientation="vertical">
+	<ImageView android:id="@+id/splashimage" android:src="@drawable/splashlogo"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+	<TextView android:paddingTop="30dp" android:text="@string/splashstr1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/mainmenu_foreground"></TextView>
+	<TextView android:text="@string/splashstr2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/mainmenu_foreground"></TextView>
+	<TextView android:text="@string/splashstr3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/mainmenu_foreground"></TextView>
+</LinearLayout>
